@@ -1,0 +1,32 @@
+body{
+	font-family: 'Oxygen', sans-serif;
+}
+div{
+	font-family: 'Oxygen', sans-serif;
+}
+
+#barra-lateral{
+	width: 60px;
+height: 530px;
+margin:0px;
+padding:0px;
+}
+#redes{
+	margin:5px;
+}
+
+#redes li{
+	margin-bottom: 40px;
+}
+
+#redes li img{
+	margin-top:6px;
+}
+
+.card-image img{
+	width: 400px;
+	height: 300px;
+	margin:6px;
+
+}
+

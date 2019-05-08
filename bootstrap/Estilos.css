@@ -1,0 +1,73 @@
+
+body{ background-color: #708090;
+ }
+
+header{
+	overflow:hidden; /* Eliminamos errores de float */
+	background:#2F4F4F;
+	margin:auto;
+	
+	}
+	
+
+#container{ display: inline-block;}
+
+li{
+ list-style: none;
+
+ }
+ nav {
+ text-align: center;
+ padding: 0;
+
+ }
+ nav ul {
+ display: inline-block;
+ margin:0;
+ padding: 0;
+ background:  #D5C529;
+
+ /* Para IE 7*/
+ zoom:1;
+ *display: inline;
+ }
+
+ nav li {
+ float: left;
+ padding: 2px 4px;
+ margin: 10px;
+ background:#2F4F4F;
+ }
+
+ nav li a:hover{
+background: #708090;
+text-decoration: none;
+margin: 0;
+padding: 0;	
+ }
+
+
+ nav li a{
+ text-decoration: none;
+ padding: 2px;
+ color:white;
+ }
+ 
+ div #menu{ 
+ margin: 0;
+ padding: 0;
+ display: flex;
+ float:right;
+ }
+
+ img{
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+ }
+
+ article{
+ 	background: #D5C529;
+ 	box-shadow: -8px 10px 16px -7px rgba(0,0,0,1);
+
+ }

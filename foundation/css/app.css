@@ -1,0 +1,65 @@
+body{
+	font-family: 'Oswald', sans-serif;
+	background-image: url("http://yesofcorsa.com/wp-content/uploads/2018/08/Tasty-Food-Desktop-Wallpaper-For-PC-1024x631.jpeg");
+	
+}
+
+div .columns{ 
+	margin-top:4px;
+}
+
+.button {
+	border-radius: 50%;
+	background-color: #E64A19;
+	float:right;
+	box-shadow: 2px 2px 0 black;
+}
+
+#favoritos{
+	padding: 0px;
+	margin: 2px;
+}
+
+#izquierda{
+	background-color: #F44336;
+
+}
+
+#derecha{
+	background-color: #FF8A65 ;
+}
+
+#menu  ul li{
+	background:#FF8A65;
+	width: 200px;
+	height: 30px;
+	margin:4px;
+	list-style: none;
+	padding: 0px;
+	margin: 6px;
+	text-align: center;
+
+}
+
+a{
+	color: black;
+}
+ 
+ a:hover{
+ 	color: white;
+ }
+
+ .callout{
+ 	background-color: #FBE9E7;
+ }
+
+ .main img{
+ width:100px;
+ height: 100px;
+ margin:4px;
+   box-shadow: 2px 2px 5px black;	
+ }
+
+ .main img:hover{
+ 	transform: scale(1.5);
+ }
